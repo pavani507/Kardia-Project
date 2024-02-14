@@ -1,0 +1,109 @@
+@import "../styles/variable.scss";
+
+.wrapper {
+    background: #174E8C;
+     height: auto;
+  .footerContainer {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    .sections {
+      display: grid;
+      padding: 0 175px;
+      grid-template-columns: repeat(4, 3fr);
+      column-gap: 3rem;
+      margin-top: 2rem;
+
+      .sectionData {
+       
+        p {
+         color: $white;
+           }
+        .media {
+            padding: 2rem 0;
+            display: grid;
+            grid-template-columns: repeat(4, 3fr);
+            a{
+                margin: 8px;
+              }
+          }
+        h6 {
+          color: $white;
+          font-weight: $font-bold;
+          letter-spacing: 4.2px;
+          font-size: 1.2rem;
+        }
+      
+        .contactDetails {
+          .contact {
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 2rem;
+            justify-content: left;
+            .info {
+              font-size: 1rem;
+              color: $white;
+              .text {
+                color: $white;
+                font-size: 1rem;
+              }
+            }
+            padding: 0rem 0 2rem 0;
+          }
+         
+         
+          .sendLink {
+            h6 {
+              letter-spacing: 4.2px;
+              font-weight: $font-bold;
+              padding: 2rem 0;
+              text-align: center;
+              margin-bottom: 0em;
+            }
+            .linkSend {
+              display: grid;
+              grid-template-columns: 1fr 10rem;
+              .button {
+                height: 5rem;
+                color: $white;
+                display: grid;
+                align-items: center;
+                background: #6387C5;
+                text-align: center;
+                border-radius: 0px 20px 20px 0px;
+              }
+              input {
+                background: $white;
+                border: 1px solid #fff;
+                border-radius: 20px 0px 0px 20px;
+                color: $white;
+                border-right: 1px solid #6387C5;
+                font-size: 1.4rem;
+              }
+              ::placeholder {
+                color: #666666;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+ 
+}
+
+@media (min-width: 1300px) {
+  .wrapper {
+    .footerContainer {
+      .screenWraper {
+        width: 87.5vw;
+      }
+    }
+  }
+}

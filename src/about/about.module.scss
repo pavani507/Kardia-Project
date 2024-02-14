@@ -1,0 +1,55 @@
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+  h1 {
+       color: #174E8C;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    p {
+        width: 74%;
+       color: #666666;
+      text-align: center;
+    
+    }
+
+     .cardWrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 28px;
+   }
+   .cardWrapper .card {
+      position: relative;
+      box-shadow: 0 1px 4px 0 rgba(41, 45, 55, 0.16);
+      border-radius: 4px;
+      background: #fff;
+      display: grid;
+      border-radius: 25px;
+   }
+   
+   .cardWrapper .card  .items {
+      padding: 1rem;
+   }
+   
+   .cardWrapper .card  .title {
+      color: #174E8C;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+   }
+     .cardWrapper .card  .description {
+      color: #666666;
+      text-align: center;
+      font-size: 12px;
+   }
+    
+    
+}
+
+

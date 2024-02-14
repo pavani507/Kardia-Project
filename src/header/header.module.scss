@@ -1,0 +1,54 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 93px 9px 80px;
+    border-bottom: 1px solid #174E8C;
+    
+
+    .logo {
+        
+        text-align: center;
+        background: none;
+    }
+
+    .nav{
+        margin-left: auto;
+       
+    }
+    
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        color: #174E8C;
+        font-weight: 700;
+    }
+    
+    .nav li {
+        display: inline;
+        margin-right: 20px;
+       
+    }
+    
+    .button {
+        
+        margin-left: auto;
+        margin-right: 5%;
+    }
+    
+    .btn {
+        padding: 16px 51px;
+        border: 1px solid #174E8C;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #174E8C;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+}
+
+

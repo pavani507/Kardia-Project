@@ -1,0 +1,37 @@
+
+
+.wrapper {
+    display: flex;
+   background: #174E8C;
+   padding-bottom: 4%;
+    
+  .partner{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        text-align: left;
+    }
+    
+    .partner h1 {
+        margin: 10px;
+        padding: 0;
+        color: #fff;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .partner p {
+        margin: 10px;
+        color: #fff
+    }
+
+    .partnerLogo{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    
+}
+
+
